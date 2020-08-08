@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "342313534301",
+    "firebase_url": "https://blood-bank-79752.firebaseio.com",
+    "project_id": "blood-bank-79752",
+    "storage_bucket": "blood-bank-79752.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342313534301:android:3ddae604783749c61f5eb4",
+        "android_client_info": {
+          "package_name": "com.gokul.bloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342313534301-o4luh79vv185i8p2uhr93rpmmrke7j64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvGEAztlSwNl_EtjLqH5nAyYjMo1U7W5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342313534301-o4luh79vv185i8p2uhr93rpmmrke7j64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

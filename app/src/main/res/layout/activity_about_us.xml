@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context=".fragments.AboutUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_cover_logo" />
+
+
+            <TextView
+                android:id="@+id/txtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/boarder"
+                android:gravity="left"
+                android:linksClickable="true"
+                android:padding="20dp"
+                android:text="@string/aboutus"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/boarder"
+                android:gravity="center"
+                android:linksClickable="true"
+                android:padding="20dp"
+                android:text="NVS.SAI KAUSIK\nIV - CSE\nAndroid App Developer\nFull Stack Developer"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/boarder"
+                android:gravity="center"
+                android:linksClickable="true"
+                android:padding="20dp"
+                android:text="Talluri GOKUL\nIII - CSE\nAndroid App Developer"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/boarder"
+                android:gravity="center"
+                android:linksClickable="true"
+                android:padding="20dp"
+                android:text="ABISHEIK\nIII - CSE\nAndroid App Developer"
+                android:textColor="#FFF"
+                android:textSize="18sp"  />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

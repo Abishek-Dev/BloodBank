@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red_button_bg"
+    android:orientation="vertical"
+    tools:context=".activities.Postctivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Contact:"
+                android:textColor="#FFF"/>
+
+            <EditText
+                android:id="@+id/getMobile"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mobile"
+                android:textColorHint="#FFF"
+                android:inputType="phone"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Location:"
+                android:textColor="#FFF"/>
+
+            <EditText
+                android:id="@+id/getLocation"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter location of place"
+                android:textColorHint="#FFF"
+                android:inputType="text"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Blood Group:"
+                android:textColor="#FFF"/>
+
+            <Spinner
+                android:id="@+id/SpinnerBlood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Blood_Group"
+                android:inputType="text"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Choose Division:"
+                android:textColor="#FFF"/>
+
+            <Spinner
+                android:id="@+id/SpinnerDivision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/division_list"
+                android:inputType="text"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/postbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/signin_btn"
+            android:backgroundTint="@color/primary_dark"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:text="Post" />
+    </LinearLayout>
+
+</LinearLayout>
