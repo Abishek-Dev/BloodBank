@@ -72,7 +72,7 @@
                 android:gravity="center"
                 android:linksClickable="true"
                 android:padding="20dp"
-                android:text="ABISHEIK\nIII - CSE\nAndroid App Developer"
+                android:text="M.ABISHEK\nIII - CSE\nAndroid App Developer\nWeb Developer"
                 android:textColor="#FFF"
                 android:textSize="18sp"  />
         </LinearLayout>
